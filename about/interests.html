@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sparkling life. . .</title>
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    body {
+        background-image: url("https://i.imgur.com/7yGq2kM.gif");
+        background-color: #bed0d8;
+        font-family: calibri, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #777;
+        letter-spacing: 1px;
+    }
+
+    p {
+        padding: 10px;
+    }
+
+    #wrapper {
+        margin: 0 auto;
+        width: 700px;
+    }
+
+    #headerwrap {
+        width: 701px;
+        float: left;
+        margin: 0 auto;
+    }
+
+    #header {
+        height: 175px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 0 auto;
+    }
+
+    #navigationwrap {
+        width: 700px;
+        float: left;
+        margin: 0 auto;
+        height: 18px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        line-height: 20px;
+        text-align: center;
+        font: 11px arial;
+        padding-top: 5px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .sub-dropdown {
+        position: relative;
+    }
+
+    .sub-dropdown-content {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .sub-dropdown:hover .sub-dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        display: block;
+        /* Makes each link a block element */
+        padding: 8px 16px;
+        /* Adds some padding for better spacing */
+        text-decoration: none;
+        /* Removes underline */
+        color: black;
+        /* Text color */
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    #contentwrap {
+        width: 500px;
+        float: left;
+        margin: 0 auto;
+    }
+
+    #content {
+        background: #FFFFFF;
+        border-radius: 10px;
+        border: 1px solid #ebebeb;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #rightcolumnwrap {
+        width: 200px;
+        float: left;
+        margin: 0 auto;
+    }
+
+    #rightcolumn {
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #footerwrap {
+        width: 700px;
+        float: left;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    #footer {
+        height: 20px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+
+    .title {
+        background: #f9f9f9;
+        color: #666;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: arial, calibri;
+        letter-spacing: 2px;
+        padding-left: 5px;
+        border-bottom: 1px solid #AC3F46;
+        border-left: 0px solid #AC3F46;
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        text-align: center;
+        font: 26px georgia;
+        font-style: italic;
+        color: #777;
+    }
+
+
+
+    ::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        border-radius: 0px;
+        border: 1px solid #999;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 4px;
+        background: transparent;
+    }
+
+
+
+    a:link,
+    a:visited,
+    a:active {
+        color: #a6bf62;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #999;
+    }
+</style>
+
+<body>
+    <br><br><br><br>
+    <div id="wrapper">
+        <div id="headerwrap">
+            <div id="header"><br><br>
+                <img src="https://file.garden/Zi6mdroOThYMNcLy/WEBSITES/header_meow2.png">
+            </div>
+        </div>
+
+        <div id="navigationwrap">
+            <a href="https://sayuragi.com/">HOME</a> ///
+            <div class="dropdown">
+                <a href="https://sayuragi.com/about">ABOUT</a> ///
+                <div class="dropdown-content">
+                    <a href="#">BRANDING</a>
+                    <a href="#">CHARACTERS</a>
+                    <a href="#">INTERESTS</a>
+                    <a href="#">MUSIC</a>
+                </div>
+            </div>
+            <a href="https://sayuragi.com/works">WORKS</a> ///
+            <div class="dropdown">
+                <a href="https://sayuragi.com/projects">PROJECTS</a> ///
+                <div class="dropdown-content">
+                    <div class="sub-dropdown">
+                        <a href="#">Illustration Series</a>
+                        <div class="sub-dropdown-content">
+                            <a href="#">Vogelnotes Collection vol. 1 & 2</a>
+                            <a href="#">The Mind Everlasting</a>
+                            <a href="#">Blooming Collection vol. 1</a>
+                        </div>
+                    </div>
+                    <div class="sub-dropdown">
+                        <a href="#">Visual Projects & AUs</a>
+                        <div class="sub-dropdown-content">
+                            <a href="#">Madoromi Atelier</a>
+                            <a href="#">LC Fantasy Guild</a>
+                            <a href="#">Limbus County High School</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://sayuragii.straw.page">STRAWPAGE</a>
+        </div>
+
+        <div id="contentwrap">
+            <div id="content">
+                <div class="title"> <img src="https://i.postimg.cc/HLn44NbF/f037bafe-original.gif"> Interests Masterlist</div>
+                I'm also using this page as a guide to how to answer the age-old question of "so what do you like?" ... because I blank out every time. <br><br> BIG NOTE: If there's any media or characters you see on here that can be deemed problematic, it's likely that I already know. I consume my media critically, and separate art from artist. This is the disclaimer in the case someone wants to say I support anything weird -- I am just an appreciator of good art, and never condone the bad actions of creators. <br><br> If anything, I battle the urge to steal the beauty from their hands... smh.
+                
+                
+                <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> food / drink</div>
+                I'll admit. I love a lot of food. If not for the fact I am inattentive and lack energy most of the time, I'd 100% be a more apt chef. Count me in on making food for the function, PLEASE... That being said, this list will become very long as I remember more things I love.
+                <ul>
+    <li>Tonkotsu Ramen</li>
+    <li>Mac and Cheese</li>
+    <li>Caesar Salad</li>
+    <li>Strawberry Milk</li>
+    <li>Strawberry Shortcake</li>
+    <li>Tres Leches Cake</li>
+    <li>Korean Corn Dog</li>
+    <li>Chicken Tikka Masala</li>
+    <li>Tacos (Carnitas tacos...)</li>
+    <li>Chicken Quesadillas</li>
+    <li>Sushi Bake</li>
+    <li>Chicken Sandwiches (my favs are chick fil a and wingstop, tbh)</li>
+    <li>Fettuccine Alfredo</li>
+    <li>Bulgogi</li>
+    <li>Bibimbap</li>
+    <li>Tteokbokki</li>
+    <li>Hot Dogs (beef or turkey though.)</li>
+    <li>Apple Pie</li>
+    <li>Monkey Bread</li>
+    <li>Banana Pudding</li>
+    <li>Ice Cream</li>
+    <li>Loaded Fries (i love to experiment)</li>
+    <li>Poke Bowl</li>
+    <li>Surf n' Turf</li>
+    <li>Grilled Cheese</li>
+    <li>Peach Tea</li>
+    <li>Peach Cobbler</li>
+    <li>Sesame Chicken</li>
+    <li>Omurice</li>
+    <li>Pancakes</li>
+    <li>Dragonfruit</li>
+    <li>Mango</li>
+    <li>Corn</li>
+    <li>Elotes</li>
+    <li>Watermelon</li>
+    <li>Peach</li>
+    <li>Peanut Butter & Jelly Sandwiches</li>
+    <li>Alfredo Pizza (it's good, trust me)</li>
+    <li>Thai Tea</li>
+    <li>Cheddar Bay Biscuits</li>
+  </ul>
+                
+                
+                
+                <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> plants</div>
+                <ul>
+    <li>Lily of the Valley</li>
+    <li>Black Dahlia</li>
+    <li>Bird of Paradise</li>
+    <li>Delphinium</li>
+    <li>Lily</li>
+    <li>Fern</li>
+    <li>Hydrangea</li>
+    <li>Spider Lily</li>
+    <li>Magnolia</li>
+    <li>Forget-me-not</li>
+    <li>Marigold</li>
+    <li>Lotus</li>
+  </ul>
+                
+                
+               
+                <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> animals</div>
+                <ul>
+    <li>Cat</li>
+    <li>Lobster</li>
+    <li>Orca</li>
+    <li>Flower Mimic Crab Spider</li>
+    <li>Beluga Whale</li>
+    <li>Ferret</li>
+    <li>Octopus</li>
+    <li>Poison Dart Frog</li>
+    <li>Jackal</li>
+  </ul>
+                
+                
+                
+                <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> video games</div>
+                <ul>
+    <li>DEEMO</li>
+    <li>DEEMO II</li>
+    <li>Cytus</li>
+    <li>Taiko no Tatsujin</li>
+    <li>Limbus Company</li>
+    <li>Library of Ruina</li>
+    <li>Lobotomy Corporation</li>
+    <li>Crusaders Quest</li>
+    <li>Touhou Project (TH15, 16 and 17 are my favorites!)</li>
+    <li>Splatoon</li>
+    <li>Animal Crossing</li>
+    <li>Minecraft</li>
+    <li>Pocket Mirror: Goldenertraum</li>
+    <li>Uma Musume</li>
+    <li>Parappa the Rapper</li>
+    <li>Genshin Impact</li>
+    <li>Animal Crossing</li>
+    <li>Slay the Princess</li>
+    <li>Thy Creature</li>
+    <li>Ender Lilies</li>
+    <li>WACCA</li>
+    <li>Sound Voltex</li>
+    <li>Super Paper Mario</li>
+    <li>Ace Attorney</li>
+    <li>Stray</li>
+    <li>New Super Mario Bros Wii</li>
+    <li>Momodora: Reverie Under the Moonlight</li>
+    <li>Child of Light</li>
+    <li>OMORI</li>
+    <li>Wadanohara and the Great Blue Sea</li>
+    <li>Phasmophobia</li>
+    <li>Lethal Company</li>
+    <li>Idol Showdown</li>
+    <li>Roblox</li>
+    <li>DOORS</li>
+    <li>Bloxburg</li>
+    <li>Dress to Impress</li>
+    <li>Fishing Simulator</li>
+    <li>Friday Night Funkin</li>
+    <li>Fantasia</li>
+    <li>Huniepop (i love puzzle games.)</li>
+    <li>Peggle</li>
+    <li>Baba is You</li>
+    <li>IMSCARED</li>
+    <li>Mario Party 8</li>
+    <li>Sky: Children of the Light</li>
+    <li>Muse Dash</li>
+    <li>Stardew Valley</li>
+    <li>Jackbox (i looove jackbox</li>
+    <li>Project Diva</li>
+    <li>Undertale</li>
+    <li>Donkey Kong Country Returns</li>
+    <li>Princess Debut</li>
+    <li>MySims Kingdom</li>
+    <li>Sims 4</li>
+  </ul>
+                
+                
+                
+                <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> books and manga</div>
+                <ul>
+    <li>Frankenstein</li>
+    <li>Catcher in the Rye</li>
+    <li>Into Black</li>
+    <li>Demian</li>
+    <li>L'Etanger</li>
+    <li>Ryuunosuke Akutagawa's "Kappa"</li>
+    <li>Hell Screen</li>
+    <li>The 100 Girlfriends that Really, Really, Really, Really, Really Love you</li>
+    <li>Mina Soko Nite</li>
+    <li>DEEMO: Prelude</li>
+    <li>DEEMO: Sakura Note</li>
+    <li>The Pillow Book</li>
+    <li>Genji Monogatari</li>
+    <li>GANTZ</li>
+    <li>Coroika</li>
+  </ul>
+                
+                
+                <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> shows & Movies</div>
+                <ul>
+    <li>Frieren</li>
+    <li>Junketsu no Maria</li>
+    <li>Kill La Kill</li>
+    <li>Hell's Kitchen</li>
+    <li>Kim Possible</li>
+    <li>Attack on Titan</li>
+    <li>Hunter x Hunter</li>
+    <li>Steven Universe</li>
+    <li>Adventure Time</li>
+    <li>Spy x Family</li>
+    <li>Uma Musume: Pretty Derby</li>
+    <li>Coraline</li>
+    <li>Spirited Away</li>
+    <li>Trapped in the Closet</li>
+    <li>The Boondocks</li>
+    <li>Avatar: The Last Airbender</li>
+    <li>Spongebob Squarepants</li>
+    <li>Extraordinary Attorney Woo</li>
+    <li>Orange is the New Black</li>
+    <li>But I'm a Cheerleader</li>
+    <li>Shrek</li>
+  </ul>
+                
+                
+                <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> characters</div>
+                This is also constantly expanding because I'm remembering things all the time.
+                <ul>
+    <li>Emil Sinclair</li>
+    <li>Fern (Frieren)</li>
+    <li>Goldia</li>
+    <li>Riamu Yumemi</li>
+    <li>Shin Sato</li>
+    <li>Kirari Moroboshi</li>
+    <li>Raiden Shogun</li>
+    <li>Rodion</li>
+    <li>Angela</li>
+    <li>Elphelt Valentine</li>
+    <li>Okina Matara</li>
+    <li>Fischl</li>
+    <li>Rider (Coroika)</li>
+    <li>Skull (Coroika)</li>
+    <li>Tatsumiya</li>
+    <li>Raspbel</li>
+    <li>Rikuhachima Aru (i dont like BA she's just cute)</li>
+    <li>Gold Ship</li>
+    <li>Mejiro McQueen</li>
+    <li>Tokai Teio</li>
+    <li>Princess Peach</li>
+    <li>Junko (Touhou)</li>
+    <li>Aubrey (OMORI)</li>
+    <li>Kamille Bidan</li>
+    <li>Etihw</li>
+    <li>Alice (DEEMO)</li>
+    <li>Tenkyuu Chimata</li>
+    <li>Yae Miko</li>
+    <li>Barbara (Genshin)</li>
+    <li>Kirara (genshin)</li>
+    <li>Houshou Marine</li>
+    <li>Nekomata Okayu</li>
+    <li>Inugami Korone</li>
+    <li>Ninomae Ina'nis</li>
+    <li>Malkuth</li>
+    <li>Kanade Yoisaki</li>
+    <li>Hatsune Miku</li>
+    
+  </ul>
+                
+                
+                <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> illustrators & musicians</div>
+                Two Lists.
+                
+                <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> Illustrators</h3> These are the people I may "drink smoothies" from (aka imitate their art style)
+                
+                <ul>
+    <li>Nozawa Yukiko</li>
+    <li>ema3art</li>
+    <li>nai_ga</li>
+    <li>Naoki Saito</li>
+    <li>SnowEgg</li>
+    <li>Mika Pikazo</li>
+  </ul>
+  
+  <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif">Musicians</h3>I play their music all the time and they inspire me... to do things. 
+  
+  <ul>
+    <li>&#39640;&#22478;&#32;&#12415;&#12424; (Takashiro Miyo)</li>
+    <li>t+pazolite</li>
+    <li>Morimori Atsushi</li>
+    <li>M2U</li>
+    <li>Alice Schach and the Magic Orchestra</li>
+    <li>Mili (thx for 11 yrs of bangers!!)</li>
+    <li>Steve Lacy</li>
+    <li>Kenshi Yonezu</li>
+    <li>Girls Change the World</li>
+    <li>Miyolophone</li>
+    <li>kidlit</li>
+    <li>xi</li>
+    <li>Camellia</li>
+    
+  </ul>
+                
+                
+               
+                <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> miscellaneous</div>
+                Other random things like hobbies and stuff.
+              
+              <ul>
+    <li>Rain</li>
+    <li>Cooking</li>
+    <li>Reading</li>
+    <li>Learning new things</li>
+    <li>Cat Paws</li>
+    <li>Roleplaying</li>
+    <li>VRChat</li>
+    <li>The Ocean</li>
+    <li>Japanese Mythology</li>
+    <li>True Crime</li>
+    <li>Boze vs. The World</li>
+    <li>iHasCupquake</li>
+    <li>Kubz Scouts</li>
+    <li>Thinknoodles</li>
+    <li>Sanrio</li>
+    <li>Collecting Plushes</li>
+  </ul>
+
+            </div>
+        </div>
+        <div id="rightcolumnwrap">
+            <div id="rightcolumn">
+
+                <img src="https://file.garden/Zi6mdroOThYMNcLy/Main%20Profile/f_MqY-4p_400x400.jpg" width="178"><br>
+                <div class="title"> <img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> My Links</div>
+                holy heck that's a lot of links!
+                <ul>
+                    <li><a href="https://x.com/sayuragii" target="_blank">Twitter / X</a></li>
+                    <li><a href="https://www.instagram.com/vogelnotes" target="_blank">Instagram</a></li>
+                    <li><a href="https://yesterweb.org/" target="_blank">Twitch</a></li>
+                    <li><a href="https://www.tiktok.com/@vogelnotes" target="_blank">Tiktok</a></li>
+                    <li><a href="https://www.youtube.com/@vogelnotes" target="_blank">Youtube</a></li>
+                    <li><a href="https://toyhou.se/sayuragii" target="_blank">Toyhou.se</a></li>
+                    <li><a href="https://www.pixiv.net/en/users/66309468" target="_blank">pixiv</a></li>
+
+                    <br>
+                    <li><a href="patreon.com/vogelnotes" target="_blank">Patreon</a></li>
+                    <li><a href="https://sayuragii.fanbox.cc" target="_blank">Pixiv FANBOX</a></li>
+                    <li><a href="https://ko-fi.com/sayoshigure" target="_blank">Ko-Fi</a></li>
+                    <li><a href="https://vgen.co/vogelnotes" target="_blank">Vgen</a></li>
+
+                </ul>
+
+
+
+
+            </div>
+        </div>
+        <div id="footerwrap">
+            <div id="footer">
+                Layout made by <a href="http://itinerae.neocities.org" target="_blank">Itinerae.</a> Pixels from <a
+                    href="https://foollovers.com/" target="_blank">Foollovers</a> and <a
+                    href="https://pixel-dreams.tumblr.com/post/16660969024/hausofgiselle" target="_blank">Pixel
+                    dreams.</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

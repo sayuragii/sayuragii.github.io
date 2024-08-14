@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sparkling life. . .</title>
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    body {
+        background-image: url("https://i.imgur.com/7yGq2kM.gif");
+        background-color: #bed0d8;
+        font-family: calibri, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #777;
+        letter-spacing: 1px;
+    }
+
+    p {
+        padding: 10px;
+    }
+
+    #wrapper {
+        margin: 0 auto;
+        width: 700px;
+    }
+
+    #headerwrap {
+        width: 701px;
+        float: left;
+        margin: 0 auto;
+    }
+
+    #header {
+        height: 175px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 0 auto;
+    }
+
+    #navigationwrap {
+        width: 700px;
+        float: left;
+        margin: 0 auto;
+        height: 18px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        line-height: 20px;
+        text-align: center;
+        font: 11px arial;
+        padding-top: 5px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .sub-dropdown {
+        position: relative;
+    }
+
+    .sub-dropdown-content {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .sub-dropdown:hover .sub-dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        display: block;
+        /* Makes each link a block element */
+        padding: 8px 16px;
+        /* Adds some padding for better spacing */
+        text-decoration: none;
+        /* Removes underline */
+        color: black;
+        /* Text color */
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    #contentwrap {
+        width: 500px;
+        float: left;
+        margin: 0 auto;
+    }
+
+    #content {
+        background: #FFFFFF;
+        border-radius: 10px;
+        border: 1px solid #ebebeb;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #rightcolumnwrap {
+        width: 200px;
+        float: left;
+        margin: 0 auto;
+    }
+
+    #rightcolumn {
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #footerwrap {
+        width: 700px;
+        float: left;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    #footer {
+        height: 20px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+
+    .title {
+        background: #f9f9f9;
+        color: #666;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: arial, calibri;
+        letter-spacing: 2px;
+        padding-left: 5px;
+        border-bottom: 1px solid #AC3F46;
+        border-left: 0px solid #AC3F46;
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        text-align: center;
+        font: 26px georgia;
+        font-style: italic;
+        color: #777;
+    }
+
+
+
+    ::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        border-radius: 0px;
+        border: 1px solid #999;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 4px;
+        background: transparent;
+    }
+
+
+
+    a:link,
+    a:visited,
+    a:active {
+        color: #a6bf62;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #999;
+    }
+</style>
+
+<body>
+    <br><br><br><br>
+    <div id="wrapper">
+        <div id="headerwrap">
+            <div id="header"><br><br>
+                <img src="https://file.garden/Zi6mdroOThYMNcLy/WEBSITES/header_meow2.png">
+            </div>
+        </div>
+
+        <div id="navigationwrap">
+            <a href="https://sayuragi.com/">HOME</a> ///
+            <div class="dropdown">
+                <a href="https://sayuragi.com/about">ABOUT</a> ///
+                <div class="dropdown-content">
+                    <a href="#">Branding</a>
+                    <a href="#">Characters</a>
+                    <a href="#">Interests</a>
+                    <a href="#">Music</a>
+                </div>
+            </div>
+            <a href="https://sayuragi.com/works">WORKS</a> ///
+            <div class="dropdown">
+                <a href="https://sayuragi.com/projects">PROJECTS</a> ///
+                <div class="dropdown-content">
+                    <div class="sub-dropdown">
+                        <a href="#">Illustration Series</a>
+                        <div class="sub-dropdown-content">
+                            <a href="#">Vogelnotes Collection vol. 1 & 2</a>
+                            <a href="#">The Mind Everlasting</a>
+                            <a href="#">Blooming Collection vol. 1</a>
+                        </div>
+                    </div>
+                    <div class="sub-dropdown">
+                        <a href="#">Visual Projects & AUs</a>
+                        <div class="sub-dropdown-content">
+                            <a href="#">Madoromi Atelier</a>
+                            <a href="#">LC Fantasy Guild</a>
+                            <a href="#">Limbus County High School</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://sayuragii.straw.page">STRAWPAGE</a>
+        </div>
+
+        <div id="contentwrap">
+            <div id="content">
+                <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> Blooming Collection vol. 1</div>
+                Coming soon.
+
+            </div>
+        </div>
+        <div id="rightcolumnwrap">
+            <div id="rightcolumn">
+
+                <img src="https://file.garden/Zi6mdroOThYMNcLy/Main%20Profile/f_MqY-4p_400x400.jpg" width="178"><br>
+                <div class="title"> <img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> My Links</div>
+                holy heck that's a lot of links!
+                <ul>
+                    <li><a href="https://x.com/sayuragii" target="_blank">Twitter / X</a></li>
+                    <li><a href="https://www.instagram.com/vogelnotes" target="_blank">Instagram</a></li>
+                    <li><a href="https://yesterweb.org/" target="_blank">Twitch</a></li>
+                    <li><a href="https://www.tiktok.com/@vogelnotes" target="_blank">Tiktok</a></li>
+                    <li><a href="https://www.youtube.com/@vogelnotes" target="_blank">Youtube</a></li>
+                    <li><a href="https://toyhou.se/sayuragii" target="_blank">Toyhou.se</a></li>
+                    <li><a href="https://www.pixiv.net/en/users/66309468" target="_blank">pixiv</a></li>
+
+                    <br>
+                    <li><a href="patreon.com/vogelnotes" target="_blank">Patreon</a></li>
+                    <li><a href="https://sayuragii.fanbox.cc" target="_blank">Pixiv FANBOX</a></li>
+                    <li><a href="https://ko-fi.com/sayoshigure" target="_blank">Ko-Fi</a></li>
+                    <li><a href="https://vgen.co/vogelnotes" target="_blank">Vgen</a></li>
+
+                </ul>
+
+
+
+
+            </div>
+        </div>
+        <div id="footerwrap">
+            <div id="footer">
+                Layout made by <a href="http://itinerae.neocities.org" target="_blank">Itinerae.</a> Pixels from <a
+                    href="https://foollovers.com/" target="_blank">Foollovers</a> and <a
+                    href="https://pixel-dreams.tumblr.com/post/16660969024/hausofgiselle" target="_blank">Pixel
+                    dreams.</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

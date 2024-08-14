@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sparkling life. . .</title>
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    body {
+        background-image: url("https://i.imgur.com/7yGq2kM.gif");
+        background-color: #bed0d8;
+        font-family: calibri, Verdana, Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #777;
+        letter-spacing: 1px;
+    }
+
+    p {
+        padding: 10px;
+    }
+
+    #wrapper {
+        margin: 0 auto;
+        width: 700px;
+    }
+
+    #headerwrap {
+        width: 701px;
+        float: left;
+        margin: 0 auto;
+    }
+
+    #header {
+        height: 175px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 0 auto;
+    }
+
+    #navigationwrap {
+        width: 700px;
+        float: left;
+        margin: 0 auto;
+        height: 18px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        line-height: 20px;
+        text-align: center;
+        font: 11px arial;
+        padding-top: 5px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 12px 16px;
+        z-index: 1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .sub-dropdown {
+        position: relative;
+    }
+
+    .sub-dropdown-content {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .sub-dropdown:hover .sub-dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        display: block;
+        /* Makes each link a block element */
+        padding: 8px 16px;
+        /* Adds some padding for better spacing */
+        text-decoration: none;
+        /* Removes underline */
+        color: black;
+        /* Text color */
+    }
+
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+    #contentwrap {
+        width: 500px;
+        float: left;
+        margin: 0 auto;
+    }
+
+    #content {
+        background: #FFFFFF;
+        border-radius: 10px;
+        border: 1px solid #ebebeb;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #rightcolumnwrap {
+        width: 200px;
+        float: left;
+        margin: 0 auto;
+    }
+
+    #rightcolumn {
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #footerwrap {
+        width: 700px;
+        float: left;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    #footer {
+        height: 20px;
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+
+    .title {
+        background: #f9f9f9;
+        color: #666;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: arial, calibri;
+        letter-spacing: 2px;
+        padding-left: 5px;
+        border-bottom: 1px solid #AC3F46;
+        border-left: 0px solid #AC3F46;
+        margin-bottom: 5px;
+    }
+
+    h1 {
+        text-align: center;
+        font: 26px georgia;
+        font-style: italic;
+        color: #777;
+    }
+
+
+
+    ::-webkit-scrollbar-thumb {
+        background-color: transparent;
+        border-radius: 0px;
+        border: 1px solid #999;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 4px;
+        background: transparent;
+    }
+
+
+
+    a:link,
+    a:visited,
+    a:active {
+        color: #a6bf62;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #999;
+    }
+</style>
+
+<body>
+    <br><br><br><br>
+    <div id="wrapper">
+        <div id="headerwrap">
+            <div id="header"><br><br>
+                <img src="https://file.garden/Zi6mdroOThYMNcLy/WEBSITES/header_meow2.png">
+            </div>
+        </div>
+
+        <div id="navigationwrap">
+            <a href="https://sayuragi.com/">HOME</a> ///
+            <div class="dropdown">
+                <a href="https://sayuragi.com/about">ABOUT</a> ///
+                <div class="dropdown-content">
+                    <a href="#">Branding</a>
+                    <a href="#">Characters</a>
+                    <a href="#">Interests</a>
+                    <a href="#">Music</a>
+                </div>
+            </div>
+            <a href="https://sayuragi.com/works">WORKS</a> ///
+            <div class="dropdown">
+                <a href="https://sayuragi.com/projects">PROJECTS</a> ///
+                <div class="dropdown-content">
+                    <div class="sub-dropdown">
+                        <a href="#">Illustration Series</a>
+                        <div class="sub-dropdown-content">
+                            <a href="#">Vogelnotes Collection vol. 1 & 2</a>
+                            <a href="#">The Mind Everlasting</a>
+                            <a href="#">Blooming Collection vol. 1</a>
+                        </div>
+                    </div>
+                    <div class="sub-dropdown">
+                        <a href="#">Visual Projects & AUs</a>
+                        <div class="sub-dropdown-content">
+                            <a href="#">Madoromi Atelier</a>
+                            <a href="#">LC Fantasy Guild</a>
+                            <a href="#">Limbus County High School</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://sayuragii.straw.page">STRAWPAGE</a>
+        </div>
+
+        <div id="contentwrap">
+            <div id="content">
+         <div class="title"> <img src="https://i.postimg.cc/HLn44NbF/f037bafe-original.gif"> Projects !!</div>
+           This is the page for all of the things I've done. Now, you can have the ultimate experience of going "Wow, you're the one who did this!?" and also see the sheer amount of stuff I try out. Cool, right? <br><br> 
+           
+           I always love trying new things out. From websites (like this) to roleplay to new methods of video editing, I'm always engaging in a new hobby. Perhaps this is the fate of the 'unemployed friend,' a trope I've occupied (sadly) for a long while. 
+           
+           
+           
+           
+                <div class="title"> <img src="https://i.postimg.cc/HLn44NbF/f037bafe-original.gif"> Larger Projects</div>
+           Sometimes, I work on things that are so big that they need their own pages. 
+           
+                            <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> Illustration Series</h3>
+           
+           <ul>
+<li><a href="https://sayuragi.com/projects/art-series/vogelnotes" target="_blank">Vogelnotes Collection vol. 1 & 2</a></li>
+<li><a href="https://sayuragi.com/projects/art-series/the-mind-everlasting" target="_blank">The Mind Everlasting</a></li>
+<li><a href="https://sayuragi.com/projects/art-series/blooming" target="_blank">Blooming Collection vol. 1</a></li>
+  </ul>
+  
+  
+  <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> Visual Projects & AUs</h3>
+           
+                      <ul>
+                      <li><a href="https://sayuragi.com/projects/mdrm" target="_blank">Madoromi Atelier</a>, my own take on a VTuber agency in the City.</li>
+<li><a href="https://sayuragi.com/projects/fantasy-guild" target="_blank">LC Fantasy Guild</a>, a Magic/Fantasy AU that takes from the likes of Soul Eater, Frieren, and my taste in flowery fantasy.</li>
+<li><a href="https://sayuragi.com/projects/limbus-high" target="_blank">Limbus County High School</a>, my lighthearted high school AU fit with all the necessary tropes.</li>
+  </ul>
+           
+           
+           
+           
+           
+                   <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> Miscellaneous Things</div>
+                   This section is all about things that don't fit under other categories, the wide array of things attributed to my name.
+           <ul>
+     <li><a href="https://sayuragii.github.io/mdrm-sort/" target="_blank">Madoromi Oshi sorter,</a> for you to figure out who your true oshi is.</li>
+      <li><a href="https://sayuragii.github.io/pmoc-repo/" target="_blank">PM OC Repository,</a> a website all about logging resources for Project Moon-centric OC resources.</li>
+       <li><a href="https://x.com/faintblossoms" target="_blank">@faintblossoms,</a> a gimmick bot centered around posting quotes from my OC, Sei Shonagon.</li>
+        <li><a href="https://x.com/larvate_sage" target="_blank">@larvate_sage,</a> a parody/roleplay account. It's just like talking to the real Celia!</li>
+         <li><a href="https://drive.google.com/drive/folders/1-AnU9BOe2b__dGxOaB3qGzaX5HCHpt_y?usp=drive_link" target="_blank">My Deemo UI Template,</a>so you can put any song you want into Deemo! This is based off of the new UI.</li>
+         <li><a href="https://sayuragii.github.io/Semi-Archive/" target="_blank">Utsu/Semi Archive,</a> a website meant to archive my rp logs and writings.</li>
+         <li>An old <a href="https://www.youtube.com/watch?v=16VIqKyomNY" target="_blank">Ishmael Promo Fandub</a> that I no longer feel proud of, but feel the need to share here in case you're one of the few who saw it.</li>
+         <li><a href="https://www.tiktok.com/@lcb_voices" target="_blank">Limbus Fandub</a> project that closed down eventually because I was overwhelmed.</li>
+  </ul>
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> (2022) Library of Ruina Avatars</div>
+           Back in 2022 (around September), due to a lack of VRChat resources and avatars in the PM community, so I made a bunch of avatars of at least half of the sephirot to be used freely by people. I lost motivation by the time I was getting to Chesed. However, none of them have been removed. <br><br>
+           
+           In case you're wanting to try them out for yourself, <a href="https://docs.google.com/spreadsheets/d/13A8okK8oOB76oQx2Q3IRaLNxAJJR18NAsRImkR3KKM0/edit?usp=sharing" target="_blank">I have a sheet of the avatar IDs to be used in Prismic's Avatar Search!</a> I also have, if you're interested, <a href="https://yesterweb.org/" target="_blank">all of the avatar as VRM files</a> for free on my Ko-fi Shop.
+        
+             
+             <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> Video Edits</div>
+           Edits that are either memes, serious edits, or something worth showing me messing around in CapCut and other programs.
+           
+           <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> Pumpin' EGOs v1</h3> In the style of beloved MAD edits from the early Japanese internet, I wanted to pay homage to my roots (and current admiration for t+pazolite) by making this video.
+           <iframe width="300" height="150" src="https://www.youtube.com/embed/z6hflSi8Aes?si=aHC6sWbTOrC4rslI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           
+           
+           <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> Pumpin' EGOs v2</h3> The 2024 remake of the first Pumpin Junkies, including more recent IDs. I did this while on a sumemr trip -- I was desperate to get this project done. This one features pitch-bending done in FL studio instead of it being done manually! Wow!
+           <iframe width="300" height="150" src="https://www.youtube.com/embed/uIJNjtVH6dU?si=pNk7XTZ-A0N7RKBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           
+           
+           <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> FEHLT - Faust</h3> My most-viewed edit on both Tiktok and Youtube. This edit, although it was my first, is very dear to me. I still think about the Representation Emitter sync.
+           <br>
+           <iframe width="300" height="150" src="https://www.youtube.com/embed/nSI-ylxf5qo?si=iohHRIoxDcMkJehq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           
+           
+           <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> Longiness - Hong Lu</h3> The first of the three 'Longiness' Edits, this one features Hong Lu.
+           <iframe width="300" height="150" src="https://www.youtube.com/embed/L2Q3RF3nxOk?si=ldzBMWBk9OF9_GsL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           
+           
+           <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> Longiness - Heathcliff</h3> The second of the three 'Longiness' Edits, this one features Heathcliff.
+           <iframe width="300" height="150" src="https://www.youtube.com/embed/lgkSIUY5M-E?si=VzGlu5nNGAXBVm1-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           
+           
+           <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> Longiness - Ryoshu</h3> The last of the three 'Longiness' Edits, this one features Ryoshu. 
+           <iframe width="300" height="150" src="https://www.youtube.com/embed/mu2WQ_U9PNQ?si=Z2drd561j_C28Wkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           
+           
+           
+           
+           
+           
+           <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> Animatics </div>
+           I'm classifying animatics here as anything that is more my own drawings than other's drawings. I don't do them often, because they're so time consuming... <br><br>
+           
+                 <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> Jijo - Sinclair</h3> A Sinclair Animatic for "Jijo" by Miyolophone. It was originally a vent piece, expressing my feelings of always coming second-place in life. In the end, I feel almost proud of it.
+<iframe width="300" height="150" src="https://www.youtube.com/embed/Lynt9rJ9M5I?si=qi3FVtGLeg-66zIz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+       <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> Sayuragi - 1116 </h3> An 1116 Animatic for "sayuragi" (hey, the site's name!) by Takashiro Miyo. It's my sort of "proof of concept" for Fantasy-Guild 1116, as this is their theme together (to me. And I'm right.)
+<iframe width="300" height="150" src="https://www.youtube.com/embed/f7nfxyHuAbI?si=HSUk7hfWDjD1Qraj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+       <h3><img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> Super Slow Internet-San - Malkuth</h3> An animatic for "Super Slow Internet-San" by Camellia + Nanahira from 2022 that never got finished, because I lost motivation almost instantly. This is my most viewed video, and one of the biggest things people recognize me by. <br>
+<iframe width="300" height="150" src="https://www.youtube.com/embed/lFL7-ySK2AY?si=COPF5WHzTs0tf2oa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  
+
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> Writings</div>
+           Most of my character-centric writings are on their individual pages. However, <a href="https://sayuragii.github.io/Semi-Archive/" target="_blank">I have Semi Archive</a> as a log of my roleplay writings. If you want fanfictions, there's not many, but <a href="https://archiveofourown.org/users/fairythm" target="_blank">I do also have an ao3.</a> I will be endlessly embarrassed if I hear anything back about my work. <br><br>
+           
+           Here's links to each thing in Semi Archive.
+           <ul>
+    <li><a href="https://sayuragii.github.io/Semi-Archive/zwei-sincelia" target="_blank">Your Shield,</a> an appropriately named oneshot taken within the Mirror of the Zwei. Sinclair is endlessly awkward while interacting with a clueless Alice.</li>
+    <li><a href="https://sayuragii.github.io/Semi-Archive/sincelia-bible" target="_blank">Birds of a feather,</a> the 70k MODERATELY outdated story of Sinclair and Celia being in love or something. It's a beautiful little thing.</li>
+    <li><a href="https://sayuragii.github.io/Semi-Archive/a-knights-will" target="_blank">A Knight's Will,</a> the now VERY inaccurate and outdated oneshot between Iris and Don, in which Iris receives some comfort from her fellow knight.</li>
+    <li><a href="https://sayuragii.github.io/Semi-Archive/meatlogs" target="_blank">The "Meatlogs,"</a> a series of writings by Yuzuko and Demeter centered around a spinoff of a certain ARG's events. </li>
+  </ul>
+           
+           
+           
+           
+           
+           
+           
+           
+           <div class="title"> <img src="https://i.postimg.cc/jjTyrMGP/87ec1909.gif"> Fan Works</div>
+           <ul>
+    <li><a href="https://archiveofourown.org/works/58015654" target="_blank">Song in Bloom,</a> a short and sweet fanfiction about 1116.</li>
+        <li><a href="https://archiveofourown.org/works/55136971" target="_blank">Impalement,</a> although not a direct fanwork, it is inspired by <a href="https://twitter.com/saccharhythm/status/1731525235084546091" target="_blank">an old edit of an N Corp Ishmael I made referencing Rosabell.</a> </li>
+  </ul>
+            </div>
+        </div>
+        <div id="rightcolumnwrap">
+            <div id="rightcolumn">
+
+                <img src="https://file.garden/Zi6mdroOThYMNcLy/Main%20Profile/f_MqY-4p_400x400.jpg" width="178"><br>
+                <div class="title"> <img src="https://i.postimg.cc/pdP5SpFB/a6560f5e.gif"> My Links</div>
+                holy heck that's a lot of links!
+                <ul>
+                    <li><a href="https://x.com/sayuragii" target="_blank">Twitter / X</a></li>
+                    <li><a href="https://www.instagram.com/vogelnotes" target="_blank">Instagram</a></li>
+                    <li><a href="https://yesterweb.org/" target="_blank">Twitch</a></li>
+                    <li><a href="https://www.tiktok.com/@vogelnotes" target="_blank">Tiktok</a></li>
+                    <li><a href="https://www.youtube.com/@vogelnotes" target="_blank">Youtube</a></li>
+                    <li><a href="https://toyhou.se/sayuragii" target="_blank">Toyhou.se</a></li>
+                    <li><a href="https://www.pixiv.net/en/users/66309468" target="_blank">pixiv</a></li>
+
+                    <br>
+                    <li><a href="patreon.com/vogelnotes" target="_blank">Patreon</a></li>
+                    <li><a href="https://sayuragii.fanbox.cc" target="_blank">Pixiv FANBOX</a></li>
+                    <li><a href="https://ko-fi.com/sayoshigure" target="_blank">Ko-Fi</a></li>
+                    <li><a href="https://vgen.co/vogelnotes" target="_blank">Vgen</a></li>
+
+                </ul>
+
+
+
+
+            </div>
+        </div>
+        <div id="footerwrap">
+            <div id="footer">
+                Layout made by <a href="http://itinerae.neocities.org" target="_blank">Itinerae.</a> Pixels from <a
+                    href="https://foollovers.com/" target="_blank">Foollovers</a> and <a
+                    href="https://pixel-dreams.tumblr.com/post/16660969024/hausofgiselle" target="_blank">Pixel
+                    dreams.</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
